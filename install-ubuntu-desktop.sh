@@ -54,11 +54,12 @@ sudo unzip /tmp/taskbar.zip -d /usr/share/gnome-shell/extensions/TaskBar@zpydr/
 gsettings get org.gnome.shell enabled-extensions
 gsettings set org.gnome.shell enabled-extensions "['netspeed@hedayaty.gmail.com', 'weather-extension@xeked.com', 'TaskBar@zpydr']"
 
+cd /home/vmadmin/
+
 ## Download and set chmod 755 to Hyperledger composer prereqs script
 curl -O https://hyperledger.github.io/composer/latest/prereqs-ubuntu.sh
 chmod u+x prereqs-ubuntu.sh
 
 ## Download and set chmod 755 to Hyperledger composer setup script
-cd /home/vmadmin/
 wget https://raw.githubusercontent.com/nirubank/azure-virtualmachine-extensions/master/setupComposer.sh
 chmod u+x setupComposer.sh
