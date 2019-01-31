@@ -53,3 +53,8 @@ sudo unzip /tmp/taskbar.zip -d /usr/share/gnome-shell/extensions/TaskBar@zpydr/
 ## Enable TaskBar
 gsettings get org.gnome.shell enabled-extensions
 gsettings set org.gnome.shell enabled-extensions "['netspeed@hedayaty.gmail.com', 'weather-extension@xeked.com', 'TaskBar@zpydr']"
+
+## Download and set chmod 755 to Hyperledger composer prereqs script
+curl -O https://hyperledger.github.io/composer/latest/prereqs-ubuntu.sh
+chmod u+x prereqs-ubuntu.sh
+
