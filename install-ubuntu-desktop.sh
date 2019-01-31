@@ -58,3 +58,6 @@ gsettings set org.gnome.shell enabled-extensions "['netspeed@hedayaty.gmail.com'
 curl -O https://hyperledger.github.io/composer/latest/prereqs-ubuntu.sh
 chmod u+x prereqs-ubuntu.sh
 
+## Download and set chmod 755 to Hyperledger composer setup script
+wget https://raw.githubusercontent.com/nirubank/azure-virtualmachine-extensions/master/setupComposer.sh
+chmod u+x setupComposer.sh
