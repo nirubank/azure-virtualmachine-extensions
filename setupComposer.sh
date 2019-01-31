@@ -23,6 +23,8 @@
 # Exit on any failure
 set -e
 
+sudo chmod 777 /var/run/docker.sock
+
 #Note that you should not use su or sudo for the following npm commands.
 #---------------------------------------------------------------------
 # Essential CLI tools:
