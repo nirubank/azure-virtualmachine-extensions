@@ -58,8 +58,8 @@ cd /home/vmadmin/
 
 ## Download and set chmod 755 to Hyperledger composer prereqs script
 curl -O https://hyperledger.github.io/composer/latest/prereqs-ubuntu.sh
-chmod u+x prereqs-ubuntu.sh
+chmod a+x prereqs-ubuntu.sh
 
 ## Download and set chmod 755 to Hyperledger composer setup script
 wget https://raw.githubusercontent.com/nirubank/azure-virtualmachine-extensions/master/setupComposer.sh
-chmod u+x setupComposer.sh
+chmod a+x setupComposer.sh
