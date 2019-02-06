@@ -67,3 +67,5 @@ chmod a+x setupComposer.sh
 ## Download and set chmod 755 to Visual studio code setup script
 wget https://raw.githubusercontent.com/nirubank/azure-virtualmachine-extensions/master/install-vscode.sh
 chmod a+x install-vscode.sh
+
+wget https://raw.githubusercontent.com/nirubank/dltWorkshop/master/LabInstructions.html
