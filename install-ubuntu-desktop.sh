@@ -63,3 +63,7 @@ chmod a+x prereqs-ubuntu.sh
 ## Download and set chmod 755 to Hyperledger composer setup script
 wget https://raw.githubusercontent.com/nirubank/azure-virtualmachine-extensions/master/setupComposer.sh
 chmod a+x setupComposer.sh
+
+## Download and set chmod 755 to Visual studio code setup script
+wget https://raw.githubusercontent.com/nirubank/azure-virtualmachine-extensions/master/setupComposer.sh
+chmod a+x setupComposer.sh
