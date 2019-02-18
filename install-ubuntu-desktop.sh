@@ -68,4 +68,4 @@ chmod a+x setupComposer.sh
 wget https://raw.githubusercontent.com/nirubank/azure-virtualmachine-extensions/master/install-vscode.sh
 chmod a+x install-vscode.sh
 
-wget https://raw.githubusercontent.com/nirubank/dltWorkshop/master/LabInstructions.html
+wget https://raw.githubusercontent.com/nirubank/dltWorkshop/master/BlockchainOnCloudLabGuide.docx
