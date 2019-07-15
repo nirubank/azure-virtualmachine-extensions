@@ -54,18 +54,18 @@ sudo unzip /tmp/taskbar.zip -d /usr/share/gnome-shell/extensions/TaskBar@zpydr/
 gsettings get org.gnome.shell enabled-extensions
 gsettings set org.gnome.shell enabled-extensions "['netspeed@hedayaty.gmail.com', 'weather-extension@xeked.com', 'TaskBar@zpydr']"
 
-cd /home/vmadmin/
+#cd /home/vmadmin/
 
 ## Download and set chmod 755 to Hyperledger composer prereqs script
-curl -O https://hyperledger.github.io/composer/latest/prereqs-ubuntu.sh
-chmod a+x prereqs-ubuntu.sh
+#curl -O https://hyperledger.github.io/composer/latest/prereqs-ubuntu.sh
+#chmod a+x prereqs-ubuntu.sh
 
 ## Download and set chmod 755 to Hyperledger composer setup script
-wget https://raw.githubusercontent.com/nirubank/azure-virtualmachine-extensions/master/setupComposer.sh
-chmod a+x setupComposer.sh
+#wget https://raw.githubusercontent.com/nirubank/azure-virtualmachine-extensions/master/setupComposer.sh
+#chmod a+x setupComposer.sh
 
 ## Download and set chmod 755 to Visual studio code setup script
-wget https://raw.githubusercontent.com/nirubank/azure-virtualmachine-extensions/master/install-vscode.sh
-chmod a+x install-vscode.sh
+#wget https://raw.githubusercontent.com/nirubank/azure-virtualmachine-extensions/master/install-vscode.sh
+#chmod a+x install-vscode.sh
 
-wget https://raw.githubusercontent.com/nirubank/dltWorkshop/master/BlockchainOnCloudLabGuide.docx
+#wget https://raw.githubusercontent.com/nirubank/dltWorkshop/master/BlockchainOnCloudLabGuide.docx
