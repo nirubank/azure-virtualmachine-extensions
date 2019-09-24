@@ -60,6 +60,10 @@ cd /home/vmadmin/
 curl -O https://hyperledger.github.io/composer/latest/prereqs-ubuntu.sh
 chmod a+x prereqs-ubuntu.sh
 
+## Download desktop setup scripts
+wget https://raw.githubusercontent.com/nirubank/azure-virtualmachine-extensions/master/install-ubuntu-desktop.sh
+chmod a+x install-ubuntu-desktop.sh
+
 ## Download and set chmod 755 to Hyperledger composer setup script
 wget https://raw.githubusercontent.com/nirubank/azure-virtualmachine-extensions/master/setupComposer.sh
 chmod a+x setupComposer.sh
